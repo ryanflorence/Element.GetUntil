@@ -53,4 +53,4 @@ provides: [Element.getAllPreviousUntil, Element.getAllNextUntil, Element.getPare
 
     });
     
-})();​
+})();
