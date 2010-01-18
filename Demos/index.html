@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Element.GetUntil Demo</title>
+	<script type="text/javascript" charset="utf-8" src="mootools-1.2.4-core.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../Source/Element.GetUntil.js"></script>
+	<script type="text/javascript" charset="utf-8" src="demo.js"></script>
+</head>
+
+<body>
+
+	<dl>
+	  <dt>term 1</dt>
+	  <dd>definition 1-a</dd>
+	  <dd>definition 1-b</dd>
+	  <dd>definition 1-c</dd>
+	  <dd>definition 1-d</dd>
+
+	  <dt id="term-2">term 2</dt>
+	  <dd>definition 2-a</dd>
+	  <dd>definition 2-b</dd>
+	  <dd>definition 2-c</dd>
+
+	  <dt>term 3</dt>
+	  <dd>definition 3-a</dd>
+	  <dd>definition 3-b</dd>
+	</dl>
+
+	<ul class="level-1">
+	  <li class="item-i">I</li>
+	  <li class="item-ii">II
+	    <ul class="level-2">
+	      <li class="item-a">A</li>
+	      <li class="item-b">B
+	        <ul class="level-3">
+	          <li class="item-1">1</li>
+	          <li class="item-2">2</li>
+	          <li class="item-3">3</li>
+	        </ul>
+	      </li>
+	      <li class="item-c">C</li>
+	    </ul>
+	  </li>
+	  <li class="item-iii" id="last">III</li>
+	</ul>
+	
+
+</body>
+</html>
