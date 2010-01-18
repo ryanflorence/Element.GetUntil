@@ -13,6 +13,6 @@ window.addEvent('domready', function(){
 	.setStyle('background-color', '#cec');
 
 	$('last').getAllNextUntil('p').setStyle('color','#c00'); // should return an empty array and do nothing
-	$('term-2').getAllPreviousUntil('strong').setStyle('color', '#c00'); // should be identical `to getPreviousUntil`
+	$('term-2').getAllPreviousUntil('strong').setStyle('color', '#c00'); // should be identical to `getAllPrevious`
 	$('term-2').getAllPrevious().setStyle('font-weight', 'bold'); // should be identical above
 });
