@@ -12,5 +12,7 @@ window.addEvent('domready', function(){
 	.getParentsUntil('.level-1')
 	.setStyle('background-color', '#cec');
 
-	console.log($('last').getAllNextUntil('p')); // should return an empty array
+	$('last').getAllNextUntil('p').setStyle('color','#c00'); // should return an empty array and do nothing
+	$('term-2').getAllPreviousUntil('strong').setStyle('color', '#c00'); // should be identical `to getPreviousUntil`
+	$('term-2').getAllPrevious().setStyle('font-weight', 'bold'); // should be identical above
 });
